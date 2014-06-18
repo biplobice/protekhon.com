@@ -1,0 +1,473 @@
+html {
+background: #fff url(../img/body_back.jpg) repeat-x; 
+font: normal 75%/1.5em "Helvetica", Arial, sans-serif;
+color: #333; /* <-- main font color */
+}
+body { text-align: left; }
+
+/* -- UTILITY -- */
+.padd10 {padding: 10px;}
+.padd20 {padding: 20px;}
+.padd30 {padding: 0px 40px;}
+.clear {clear:both;display:block;overflow:hidden;width:0;height:0}
+
+.col1, .col2, .col3, .col4, .col5, .col6, .smallcol1, .maincol, .subcol1, .subcol2 { display:inline; float:left; position:relative; }
+
+.col1 { width: 960px; }
+.col2 { width: 560px; }
+.col3 { width: 480px; }
+.col4 { width: 400px; }
+.col5 { width: 420px; }
+.col6 { width: 420px; float: right; padding-left: 15px; margin-left: 15px; border-left: 1px solid #ccc;}
+
+/* -- COLUMNS SECTION -- */
+.smallcol1 { width: 320px; } 
+.maincol { width: 639px; border-right: 1px solid #ccc; }
+	.subcol1 { width: 248px; }
+	.subcol2 { width: 391px; }
+
+.smallcol1.center { width: 318px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	} 
+/* -- END COLUMNS SECTION -- */
+	
+.right { margin-left: 20px; }
+
+.imgright { float: right; padding: 5px; margin-left: 20px; border: 1px solid #ccc; }
+.imgleft {	float: left; padding: 5px; margin-right: 20px; border: 1px solid #ccc; }
+
+.border { border-bottom: 1px solid #ccc; padding-bottom: 10px; margin-bottom: 20px; }
+
+#skip { display: none; }
+/* -- end UTILITY -- */
+
+/* -- Main div -- */
+#wrapper {
+	width: 960px;
+	text-align: left;
+	margin: 20px auto;
+
+}
+
+#logo img{
+	float: left;
+	margin-right: 10px;
+}
+
+#page {
+	width: 960px;
+	float: left;
+	margin-top: 20px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	margin-bottom: 20px;
+}
+
+/* HOME PAGE jQuery BANNER SECTION */
+
+#stripbox {	
+	position:relative;
+	width:960px; 
+	overflow:hidden; 
+	height: 247px;
+}
+
+#strip {
+	background: url(../img/strip_back.jpg) no-repeat;  /* <-- if you want to change the background image just replace strip_back.jpg with another one */
+	border-bottom: 1px solid #ccc;
+}
+	#strip ul { float: left; }
+
+	#strip li {
+		width:960px; 
+		list-style: none;
+		margin-bottom: 0;
+		height: 247px;
+		overflow:hidden; 
+	}
+	
+/* END HOME PAGE jQuery BANNER SECTION */ 
+
+#title {
+	background: url(../img/strip_back.jpg) no-repeat;
+	height: 90px;
+	border-bottom: 1px solid #ccc;
+}
+
+#secstrip {
+	float: left;
+	border-bottom: 1px solid #ccc;
+	background: url(../img/secstrip_back.jpg) repeat-y;
+	text-shadow: #fff 0 1px 0;
+}
+
+#secstrip img {
+	float: left;
+	margin-right: 20px;
+}
+
+#content2 {
+	float: left;
+	padding: 30px 0;
+	background: url(../img/content_back.jpg) repeat-x;
+}
+
+#moreserv {
+	float: left;
+	border: 1px solid #ccc;
+	padding: 20px;
+	background: url(../img/body_back.jpg) repeat-x;
+	text-shadow: #fff 0 1px 0;
+}
+
+#contactbadge {
+	width: 206px;
+	float: left;
+	border: 1px solid #ccc;
+	paddingdding: 20px;
+	background: url(../img/content_back.jpg) repeat-x;
+	text-shadow: #fff 0 1px 0;
+}
+	#contactbadge img { margin-bottom: 10px; }
+
+#moreserv img { margin-bottom: 20px; }
+
+#footer {
+	background: #363636;
+	color: #fff;
+	text-align: center;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	-moz-border-radius-bottomright: 15px;
+}
+
+#copy {
+	color: #5e5e5e;
+}
+
+#content2 img {  }
+
+.morebtn {
+	margin-top: 20px;
+	float: right;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #ef7f30 url(../img/navlibg.gif) repeat-x;
+	border-bottom: 1px solid #666;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	text-shadow: #666 0 -1px 0px;
+}
+	.morebtn:hover {
+	background: #ef7f30;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+/* -- FONTS -- */
+.alt {
+	color: #ee7f30;  /* color for alternate style */
+	text-transform: none;
+}
+
+/* LOGO MAIN STYLE */ 
+h1 { 
+	text-transform: uppercase;
+	font-size: 26px; 
+	line-height: 1em;
+	font-weight: bold;
+	text-shadow: #fff 0 1px 0;
+} 
+/* END LOGO MAIN STYLE */ 
+
+#title h2 { float: left; font-size: 50px; line-height: 50px; text-transform: uppercase; padding-right: 20px; margin-right: 20px; border-right: 1px solid #fff; }
+
+h3 {
+	font-size: 18px;
+	line-height: 1.25em;
+	margin-bottom: 20px;
+}
+
+h4 { 
+	font-size: 24px;
+	line-height: 1.15em;
+}
+	#contactbadge h4 { font-size: 14px; margin-bottom: 10px; text-transform: uppercase; }
+
+strong { font-weight: bold; }
+
+#content2 p { margin-bottom: 1.5em; }
+
+	#contactbadge p { margin-bottom: 0; }
+
+	#strip p {
+		padding-left: 20px;
+		font-size: 18px;
+		line-height: 1.25em;
+		color: #fff; 
+		text-shadow: #5a5a5a 0 1px 3px;
+		}
+
+	#strip .first {
+		margin-top: 30px;
+		margin-bottom: 10px;
+		font-weight: bold;
+		font-size: 28px;
+		text-shadow: #5a5a5a 0 1px 3px;
+		}
+		
+	#title { color: #fff; text-shadow: #5a5a5a 0 1px 3px; }
+	#title p { font-size: 28px; line-height: 50px; }
+	
+	#secstrip .title {
+		font-size: 24px;
+		line-height: 1.15em;
+		}
+		
+	#secstrip .subtitle, .subcol1 .subtitle {
+		font-size: 12px;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+		}
+
+	#secstrip .desc { color: #797979; }
+
+	/* LOGO SLOGAN STYLE */ 
+	p#slogan {
+		color: #666;
+		font-size: 18px;
+		text-transform: none;
+		text-shadow: #fff 0 1px 0;
+		}
+	/* END LOGO SLOGAN STYLE */ 
+		
+	#copy { font-size: 10px; }
+
+a {	color: #ef7f30;	text-decoration: none; }
+	a:hover { text-decoration: underline; }
+	
+li { margin-bottom: 0.65em; list-style-type: disc; list-style-position: inside; }
+
+/* -- NEWS -- */
+
+.news li { list-style-image: url(../img/arrow.gif); list-style-position: outside; margin-left: 20px; border-bottom: 1px solid #ccc; margin-bottom: 10px;}
+	.news li:hover { background: #f0f0f0; }
+h5.date { font-weight: bold; text-transform: uppercase; font-size: 11px; }
+#content2 .news p { margin-bottom: 5px; font-size: 10px; line-height: 1.5em; }
+
+/* -- contact form -- */
+
+#error { width: 288px; }
+
+#emailerror {
+	margin-bottom: 10px;
+	padding: 10px;
+	background: #fcc;
+	border: 1px solid #ff1600;
+	color: #4b4b4b;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#success {
+	margin-bottom: 10px;
+	padding: 10px;
+	background: #d6f1a9;
+	border: 1px solid #76993d;
+	color: #455a23;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#success p {
+	font-size: 16px;
+	margin-bottom: 0;
+}
+
+#error img {
+	width: 20px;
+	height: 20px;
+	float: left;
+	display: block;
+	margin-right: 10px;
+}
+
+.error {
+	color: #99100f;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+#emailerror li {
+	margin-left: 10px;
+	margin-bottom: 5px;
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+#submitform { width: 308px; float: left; display: block; }
+
+#submitform #Message, #Name, #Email, #Company { 
+	width: 288px;
+	max-width: 288px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	color: #666;
+	}
+	
+	#submitform #Name, #Email, #Company { height: 15px; }
+
+#submitform label { float: left; display: inline; text-transform: uppercase; font-size: 10px; }
+
+.submit-button {
+	float: right;
+	padding: 5px 10px;
+	color: #fff;
+	overflow: hidden;
+	text-transform: uppercase;
+	background: #ef7f30 url(../img/navlibg.gif) repeat-x;
+	border: none;
+	border-bottom: 1px solid #666;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	text-shadow: #666 0 -1px 0px;
+}
+	
+	.submit-button:hover {
+	background: #ef7f30;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+#submitform p.required { margin-bottom: 0; }
+
+/* -- NAVIGATION -- */
+
+#nav {
+	/*	background:transparent url(../img/topnavBG.png)  no-repeat; */
+ 	background: #363636; 
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+	padding: 5px 0 0 0;
+	border-bottom: 2px solid #ef7f30;
+	}
+
+#nav ul { 
+	float: left;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	z-index:100;
+ }
+ 
+#nav li {
+	list-style: none;
+	display: inline;
+	float: left;
+	margin: 0 0 0 10px;
+	position: relative;
+}
+
+/*Start*/
+
+
+#nav ul li a {
+	text-align:center;
+	text-decoration:none;
+	display:block
+	color: #000;
+	background: #363636;
+}
+
+#nav ul ul {
+	position:absolute;
+	visibility:hidden;
+}
+
+#nav ul ul li {
+	list-style: none;
+	display: inline;
+	float: left;
+	margin: 0 0 0 0px;
+	position: relative;
+}
+
+#nav ul li:hover ul {
+	visibility:visible;
+	position:absolute;
+}
+
+/*End*/
+
+#nav a {
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+#nav a:hover, #nav .selected {
+	background: #ef7f30 url(../img/navlibg.gif) repeat-x;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	text-shadow: #666 0 -1px 0px; }
+
+#secnav li {
+	list-style: none;
+	display: inline;
+}
+
+#secnav a {
+	text-transform: capitalize;
+	color: #fff;
+	text-decoration: none;
+	border-left: 1px solid #fff;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+#secnav a:hover {
+	text-decoration: underline;
+}
+
+#secnav .first a {
+	border-left: none;
+}
+
+/* Get in Touch */
+#box3 .socialIcons ul li {display:inline-block;}
+
+.getInTouch ul li.phoneContact, .getInTouch ul li.emailContact, .getInTouch ul li.addressContact, .getInTouch ul li.skypeContact {
+	padding-left:50px;
+	padding-top:10px;
+	margin-bottom:10px;
+	}
+	
+.getInTouch ul li.phoneContact {background:transparent url(../img/phone.png) 6px 10px no-repeat;}
+.getInTouch ul li.emailContact {background:transparent url(../img/email.png) 3px 10px no-repeat;}
+.getInTouch ul li.skypeContact {background:transparent url(../img/skype.png) 3px 11px no-repeat;}
+.getInTouch ul li.addressContact {background:transparent url(../img/home.png) 3px 10px no-repeat;}
