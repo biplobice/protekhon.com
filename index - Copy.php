@@ -17,19 +17,6 @@
 					<img src="img/education.jpg" alt="icon" />
 				</div>
 				</li>
-<!--Blood Donation Program -->
-				<li>
-				<div class="col2">
-					<div class="padd20">
-						<p class="first">Blood Donation Program</p>
-						<p>Protekhon Blood Reservation Members Are Willing Blood Donate Regularly."</p>
-						<a class="morebtn" href="#" title="">read more</a>
-					</div>
-				</div>
-				<div class="col4">
-					<img src="img/BloodDonation.jpg" alt="icon" />
-				</div>
-				</li>
 <!--Health Program -->
 				<li>
 				<div class="col2">
